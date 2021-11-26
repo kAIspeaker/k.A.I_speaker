@@ -9,9 +9,14 @@ STT를 이용하여 명령 음성을 텍스트로 변환한 뒤 다중분류 모
 카테고리에 맞는 동작을 rule_base 이용하여 해당 동작을 수행합니다.
 
 
+
+
+
 ## PROGRAM LANGUAGE
 
 python3
+
+
 
 
 ## LIBRARY USED
@@ -29,6 +34,8 @@ tqdm
 torch==1.8.2
 
 mxnet
+
+
 
 
 ## FUNCTION
@@ -103,6 +110,9 @@ mxnet
     
     (NONE)
     
+
+
+
 
 ## VARIABLE
 
