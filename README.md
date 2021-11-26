@@ -8,9 +8,11 @@ STT를 이용하여 명령 음성을 텍스트로 변환한 뒤 다중분류 모
 
 카테고리에 맞는 동작을 rule_base 이용하여 해당 동작을 수행합니다.
 
+
 ## PROGRAM LANGUAGE
 
 python3
+
 
 ## LIBRARY USED
 
@@ -27,6 +29,7 @@ tqdm
 torch==1.8.2
 
 mxnet
+
 
 ## FUNCTION
 
@@ -104,4 +107,5 @@ mxnet
 ## VARIABLE
 
 global basket : 장바구니
+
 global ALARM_FLAG : 결제&변경 알람 프로세스 처리
