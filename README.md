@@ -109,3 +109,23 @@ mxnet
 global basket : 장바구니
 
 global ALARM_FLAG : 결제&변경 알람 프로세스 처리
+
+
+
+## 다중분류모델 예측 결과 예시
+
+<img width="452" alt="Screen Shot 2021-11-21 at 12 25 43 AM" src="https://user-images.githubusercontent.com/68856374/143580578-6dedef00-1e7a-41e6-8d4a-3d489c4066cc.png">
+
+
+
+## 서비스 이용 예시
+
+<img width="443" alt="Screen Shot 2021-11-26 at 9 22 13 PM" src="https://user-images.githubusercontent.com/68856374/143580709-80421b75-ea92-4739-b368-2a01c2096a03.png">
+
+
+<img width="447" alt="Screen Shot 2021-1![Uploading Screen Shot 2021-11-26 at 9.22.13 PM.png…]()
+1-26 at 9 21 53 PM" src="https://user-images.githubusercontent.com/68856374/143580647-bea32d51-f2b7-473e-98c0-c748b8e50d5b.png">
+
+
+
+##### made by hyopark, hson, jijo
