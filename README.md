@@ -30,7 +30,7 @@ mxnet
 
 ## FUNCTION
 
-- STT()
+- speech_to_text()
     
     ## DESCRIPTION
     
@@ -91,10 +91,10 @@ mxnet
     | FUNCTION | DESCRIPTION | PARAMETER | RETURN |
     | --- | --- | --- | --- |
     | deal_order(text, okt) | 주문 | text, okt | 0/1(실패/성공) |
-    | deal_change(text, okt) | 변경 | text, okt | 0/1(실패/성공) |
+    | deal_changing(text, okt) | 변경 | text, okt | 0/1(실패/성공) |
     | deal_pay() | 결제 | (NONE) | 0/1(실패/성공) |
-    | deal_recommend() | 추천 | (NONE) | 0/1(실패/성공) |
-    | deal_menu_list() | 메뉴판 | (NONE) | 0/1(실패/성공) |
+    | deal_recommand() | 추천 | (NONE) | 0/1(실패/성공) |
+    | deal_menulist() | 메뉴판 | (NONE) | 0/1(실패/성공) |
     
     ## RETURN
     
@@ -104,3 +104,4 @@ mxnet
 ## VARIABLE
 
 global basket : 장바구니
+global ALARM_FLAG : 결제&변경 알람 프로세스 처리
