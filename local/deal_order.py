@@ -235,20 +235,20 @@ def deal_pay():
 	print(count)
 	print('\n')
 
-	# customer_ans = speech_to_text()
-	customer_ans = input("고객 응답: ")
+	customer_ans = speech_to_text()
+	# customer_ans = input("고객 응답: ")
 	if customer_ans == '네' or customer_ans == '맞아요' or customer_ans == '응':
 		ALARM_FLAG = 0
 		print_alarm()
 
 		print("포인트를 적립하시겠습니까?")
-		# customer_ans2 = speech_to_text()
-		customer_ans2 = input("고객 응답: ")
+		customer_ans2 = speech_to_text()
+		# customer_ans2 = input("고객 응답: ")
 		if (customer_ans2 == '네' or customer_ans2 == '할게요'
 					or customer_ans2 == '할게' or customer_ans2 == '응'):
 			print("적립 번호를 말씀해주세요.")
-			# customer_ans3 = speech_to_text()
-			customer_ans3 = input("고객 응답: ")
+			customer_ans3 = speech_to_text()
+			# customer_ans3 = input("고객 응답: ")
 			print('\'{}\' 번호로 포인트가 적립되었습니다.'.format(customer_ans3))
 
 		print("카드를 삽입해주세요.")

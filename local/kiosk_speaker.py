@@ -67,8 +67,8 @@ def main(model, tok, vocab):
     basket = []
 
     print("주문을 원하시면, '주문' 이라고 말씀해 주세요.\n시각장애인이시면 소지하신 이어폰을 왼쪽 하단에 꽂아주세요.")
-    # start = speech_to_text()
-    start = input("start: ")
+    start = speech_to_text()
+    # start = input("start: ")
     print('\n')
 
     if (start.replace(" ", "") == '주문'):
@@ -81,8 +81,8 @@ def main(model, tok, vocab):
           print_alarm()
 
         print("주문을 말씀해주세요.")
-        # sentence = speech_to_text()
-        sentence = input("주문: ")
+        sentence = speech_to_text()
+        # sentence = input("주문: ")
 
         if (sentence == '종료'):
           print("키오스크 주문이 종료되었습니다.\n")
